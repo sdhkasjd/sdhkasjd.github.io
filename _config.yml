@@ -2,10 +2,11 @@
 title: Yang Xing
 subtitle: Nothing but Tech&Art
 # welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
+welcom_message: 欢迎做客
 description: 随便写点.
-creator: <a href="http://onev.cat">@onevcat</a>
+creator: <a href="http://sdhkasjd.ml">@sdhkasjd</a>
 
-url: "http://vno.onevcat.com"
+url: "http://sdhkasjd.ml"
 
 permalink: /:year/:month/:title/
 
@@ -24,10 +25,11 @@ blog_button:
 nav:
     # - {title: Projects, description: My Projects, url: 'http://project.onevcat.com'}
     # - {title: Another Button, description: A button, url: 'http://example.com'}
+    {title: balbala, description: lalala, url: 'http://sdhkasjd.ml'}
 
 # Pagination
 gems: [jekyll-paginate]
-paginate: 10
+paginate: 5
 paginate_path: "page/:num/"
 
 # Comment
