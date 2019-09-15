@@ -40,6 +40,12 @@ objectExample = dotnetObject "System.string"
 objectExample = "Hello dotnet object"
 ```
 
+#### 加载现有库
+
+```Maxscript
+dotnetClass "System.Reflection.assembly").Load ((dotnetClass "System.IO.File").ReadAllBytes(DllFilePath)
+```
+
 #### 一些坑
 
 之前使用的时候遇到的坑爹问题
